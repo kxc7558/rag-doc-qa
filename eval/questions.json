@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "tag": "A",
+    "question": "TikTok Shop 的结算周期是多久？",
+    "expected_keywords": ["7 天"],
+    "expected_sources": ["01_平台规则.md"],
+    "note": "事实查找：答案在平台规则里明确写了 7 天"
+  },
+  {
+    "id": 2,
+    "tag": "A",
+    "question": "德国尾程加急配送是几个工作日？",
+    "expected_keywords": ["2", "3", "工作日"],
+    "expected_sources": ["02_物流时效.md"],
+    "note": "事实查找：物流时效表格里有明确数字"
+  },
+  {
+    "id": 3,
+    "tag": "B",
+    "question": "四个平台的退货窗口分别是多少天？",
+    "expected_keywords": ["30", "7", "独立站"],
+    "expected_sources": ["01_平台规则.md"],
+    "note": "表格数据：需要读表格并准确读出每个平台的天数；独立站文档里没有，应如实说未找到"
+  },
+  {
+    "id": 4,
+    "tag": "C",
+    "question": "一个德国买家收到破损商品，客服该怎么处理、要在几天内响应？",
+    "expected_keywords": ["24 小时", "先留证再退款", "3 个工作日"],
+    "expected_sources": ["03_退货SOP.md", "02_物流时效.md"],
+    "note": "跨文档聚合：响应时限在退货SOP，升级规则在物流时效"
+  },
+  {
+    "id": 5,
+    "tag": "C",
+    "question": "美国买家下单后第 8 个工作日还没签收，按标准应该做什么？",
+    "expected_keywords": ["主动联系", "7 个工作日"],
+    "expected_sources": ["02_物流时效.md"],
+    "note": "跨文档聚合：超时判定在物流时效表，美国是 7 个工作日阈值"
+  },
+  {
+    "id": 6,
+    "tag": "D",
+    "question": "退货窗口和超时判定阈值分别是什么？两者有什么区别？",
+    "expected_keywords": ["退货窗口", "超时判定"],
+    "expected_sources": ["01_平台规则.md", "03_退货SOP.md"],
+    "note": "概念区分：退货窗口有明确定义，超时判定阈值文档里没有独立定义，应如实说"
+  },
+  {
+    "id": 7,
+    "tag": "E",
+    "question": "一笔 250 美元的退货申请，需要走什么审批流程？",
+    "expected_keywords": ["主管审批", "200 美元"],
+    "expected_sources": ["01_平台规则.md"],
+    "note": "条件推理：250 > 200 触发主管审批，需要按规则推理"
+  },
+  {
+    "id": 8,
+    "tag": "F",
+    "question": "美国站的广告投放 ROI 标准是多少？",
+    "expected_keywords": ["未找到", "没有"],
+    "expected_sources": [],
+    "note": "陷阱题（幻觉测试）：文档里没有，正确回答是「文档中未找到相关信息」，不得编造"
+  },
+  {
+    "id": 9,
+    "tag": "F",
+    "question": "公司跨境电商业务去年的总营收是多少？",
+    "expected_keywords": ["未找到", "没有"],
+    "expected_sources": [],
+    "note": "陷阱题（幻觉测试）：文档里没有营收数据，正确回答是「文档中未找到相关信息」"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "total_questions": 9,
+  "metrics": {
+    "faithfulness_avg": 0.635,
+    "retrieval_coverage_avg": 1.0,
+    "context_precision_avg": 0.917
+  },
+  "hallucination_count": 0,
+  "hallucination_rate": 0.0,
+  "per_question": [
+    {
+      "id": 1,
+      "tag": "A",
+      "question": "TikTok Shop 的结算周期是多久？",
+      "faithfulness": 0.75,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 2,
+      "tag": "A",
+      "question": "德国尾程加急配送是几个工作日？",
+      "faithfulness": 0.5,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 3,
+      "tag": "B",
+      "question": "四个平台的退货窗口分别是多少天？",
+      "faithfulness": 0.8,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 4,
+      "tag": "C",
+      "question": "一个德国买家收到破损商品，客服该怎么处理、要在几天内响应？",
+      "faithfulness": 0.367,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 5,
+      "tag": "C",
+      "question": "美国买家下单后第 8 个工作日还没签收，按标准应该做什么？",
+      "faithfulness": 0.615,
+      "retrieval_coverage": 1.0,
+      "context_precision": 0.5,
+      "is_hallucination": false
+    },
+    {
+      "id": 6,
+      "tag": "D",
+      "question": "退货窗口和超时判定阈值分别是什么？两者有什么区别？",
+      "faithfulness": 0.311,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 7,
+      "tag": "E",
+      "question": "一笔 250 美元的退货申请，需要走什么审批流程？",
+      "faithfulness": 0.368,
+      "retrieval_coverage": 1.0,
+      "context_precision": 0.75,
+      "is_hallucination": false
+    },
+    {
+      "id": 8,
+      "tag": "F",
+      "question": "美国站的广告投放 ROI 标准是多少？",
+      "faithfulness": 1.0,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    },
+    {
+      "id": 9,
+      "tag": "F",
+      "question": "公司跨境电商业务去年的总营收是多少？",
+      "faithfulness": 1.0,
+      "retrieval_coverage": 1.0,
+      "context_precision": 1.0,
+      "is_hallucination": false
+    }
+  ]
+}

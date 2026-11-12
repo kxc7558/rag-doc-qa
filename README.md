@@ -106,7 +106,7 @@ python app.py
 
 ```text
 app.py                主程序（手写管道版，不依赖 LangChain）
-app_langchain.py.bak  LangChain 版（备份，展示另一条路径）
+examples/langchain_pipeline.py  LangChain 版（同一套文档 + 同一套评测题，展示另一条路径）
 run_eval.py           跑 9 道评测题并输出报告
 eval_questions.txt    评测题库
 docs/                 示例知识库（4 篇售后文档）
